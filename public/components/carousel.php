@@ -1,12 +1,5 @@
-<?php
-
-include( 'data/fake-posts.php' );
-
-$title = "Facebook voor beginners";
-?>
-
 <div class="carousel">
-    <h2 class="carousel__title"><?php echo $title ?></h2>
+    <h2 class="carousel__title">Facebook voor beginners</h2>
 
     <div class="carousel__wrapper">
         <span class="carousel__arrow-left"></span>
