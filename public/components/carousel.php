@@ -66,13 +66,13 @@ function image( $item ) { echo items()[ 0 ][ $item ]; }
 function text( $item ) { echo items()[ $item ]; }
 ?>
 
-<div class="carrousel">
-    <h2 class="carrousel__title"><?php echo $title ?></h2>
+<div class="carousel">
+    <h2 class="carousel__title"><?php echo $title ?></h2>
 
-    <div class="carrousel__wrapper">
-        <span class="carrousel__arrow-left"></span>
+    <div class="carousel__wrapper">
+        <span class="carousel__arrow-left"></span>
         
-        <div class="carrousel__slides">
+        <div class="carousel__slides">
             <?php foreach(items() as $item) : ?>
                 <div class="slide">
                     <!-- <img src="<?php // echo $item[ 'image' ][ 'url' ] ?>" alt="<?php // echo $item[ 'image' ][ 'alt' ] ?>"> -->
@@ -82,7 +82,7 @@ function text( $item ) { echo items()[ $item ]; }
             <?php endforeach;?>
         </div>
         
-        <span class="carrousel__arrow-right"></span>
+        <span class="carousel__arrow-right"></span>
     </div>
 
 </div>

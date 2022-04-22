@@ -35,19 +35,19 @@
   margin: 0;
 }
 
-.carrousel {
+.carousel {
   width: 100%;
 }
-.carrousel__title {
+.carousel__title {
   margin-left: 80px;
 }
-.carrousel__wrapper {
+.carousel__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
-.carrousel__arrow-left, .carrousel__arrow-right {
+.carousel__arrow-left, .carousel__arrow-right {
   width: 50px;
   height: 50px;
   padding: 0px 19px;
@@ -55,13 +55,13 @@
   border: 1px solid #d7d7d7;
   display: inline-block;
 }
-.carrousel__slides {
+.carousel__slides {
   display: flex;
   flex-flow: row nowrap;
   gap: 30px;
   overflow: hidden;
 }
-.carrousel .slide__image {
+.carousel .slide__image {
   width: 230px;
   height: 128px;
   background: #d7d7d7;
