@@ -1,3 +1,30 @@
+.current-articles {
+  width: 100%;
+}
+.current-articles__title {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.current-articles__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.current-articles__wrapper .article {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.current-articles__wrapper .article__image {
+  margin-bottom: 10px;
+}
+.current-articles__wrapper .article__date {
+  color: #777777;
+}
+.current-articles__wrapper .article__title, .current-articles__wrapper .article__date {
+  margin: 0;
+}
+
 .measurements {
   max-width: 570px;
   padding: 30px;
@@ -52,7 +79,7 @@
   height: 50px;
   padding: 0px 19px;
   border-radius: 50%;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #555555;
   display: inline-block;
 }
 .carousel__slides {
@@ -64,7 +91,7 @@
 .carousel .slide__image {
   width: 230px;
   height: 128px;
-  background: #d7d7d7;
+  background: #555555;
   display: block;
   border-radius: 4px;
 }
